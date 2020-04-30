@@ -7,8 +7,8 @@ main {
   flex-grow: 1;
 }
 
-.skills-and-progress {
-  background-color: red;
+div {
+  border: 1px solid black;
 }
 
 #pricing {
