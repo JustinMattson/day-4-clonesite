@@ -1,16 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
 body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  font-family: "Raleway", sans-serif;
 }
 main {
   flex-grow: 1;
 }
 
-div {
-  border: 1px solid black;
-}
-
 #pricing {
   background-color: blue;
+}
+
+.bg-header{
+  background: rgb(0,212,255);
+  background: radial-gradient(circle, rgba(0,212,255,1) 0%, rgba(45,77,124,1) 25%, rgba(2,0,36,1) 100%);
+}
+
+.text-shadow{
+  text-shadow: 3px 3px black;
+}
+
+.header-padding{
+  padding: 25vh 5vw 0 5vw;
+}
+
+header{
+  background-image: url("pc.background.jpg");
+  background-size: cover;
+}
+
+.br{
+  border-radius: 2%;
+  max-width: 45vw;
+}
+
+.bg-grey{
+  background-color: rgb(229, 226, 226);
+}
+
+.padding-design{
+  padding-top: 15vh;
+  padding-bottom: 15vh;
+}
+
+.iconLarge{
+  font-size: 10vh;
+}
+
+.nav-width{
+  min-width: 100vw;
+  top: 0;
+  margin-left: -2%;
+  position: fixed;
+}
+
+.icon-padding{
+  padding-bottom: 5vh;
+  padding-top: 15vh;
+}
+
+.btn-mod{
+  border: none;
+  background-color: rgba(198, 199, 199, 0.5);
+}
+
+nav {
+  z-index: 9999;
 }
